@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",                         // Target ECMAScript version (default is ES3)
+    "lib": ["dom", "dom.iterable", "esnext"], // Specifies library files to be included
+    "allowJs": true,                          // Allow JavaScript files to be compiled
+    "skipLibCheck": true,                     // Skip type checking of all declaration files
+    "esModuleInterop": true,                  // Emit __importStar and __importDefault helpers for runtime babel/ecmascript modules
+    "allowSyntheticDefaultImports": true,     // Allow default imports from modules with no default export
+    "strict": true,                           // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "module": "esnext",                       // Specify module code generation
+    "moduleResolution": "node",               // Type of module resolution used
+    "resolveJsonModule": true,                // Allow importing .json files
+    "isolatedModules": true,                  // Ensure that each file can be safely transpiled without relying on other imports
+    "jsx": "react-jsx",                       // Support for React JSX transform
+    "outDir": "./dist",                       // Redirect output structure to the directory
+    "noEmit": true,                           // Do not emit outputs
+    "incremental": true                       // Enable incremental compilation
+  },
+  "include": ["src"],                         // Include files and folders
+  "exclude": ["node_modules", "dist"]         // Exclude files and folders
+}
